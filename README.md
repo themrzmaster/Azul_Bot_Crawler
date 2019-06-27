@@ -8,5 +8,7 @@ azul = o crawler (tasks.py)
 
 analyser = interface primitiva e nao funcional para analise dos resultados
 
+O site está em constante atualizacao. E necessario uma manuntencao recorrente para que funcione um rastreador como esse.
+Isso pode ser uma ideia. 
 
 Have fun

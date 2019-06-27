@@ -1,0 +1,10 @@
+import analyser.utils as utils
+df = utils.get_full_dataframe()
+
+
+#da = utils.getPlot2_data(df, 7, 3, 'GRU', True)
+
+d1 = utils.get_by_destination(df, 'GRU')
+d2 = utils.get_by_extraction_date(d1, 7, 3)
+d4 = utils.get_between_time(d2, 20, 3, 29, 3, True)
+d5 = utils.group_min_value(d4, True)
